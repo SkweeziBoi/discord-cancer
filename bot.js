@@ -68,4 +68,4 @@ function clean(text) {
 }
 
 
-cancer.login("MzUzOTYyNjU3NzM4MzkxNTYy.DI3YkQ.A9N2wId6nSIB3unsINP3W938cNs")
+cancer.login("no shit")
