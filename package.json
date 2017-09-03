@@ -1,0 +1,26 @@
+{
+  "name": "discord-cancer",
+  "version": "0.0.3",
+  "description": "A Discord bot that can turn english sentences and text into cancerous shit and other fun commands",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkweeziBoi/discord-cancer.git"
+  },
+  "keywords": [
+    "cancer",
+    "discord-bot",
+    "discord",
+    "fun-bot",
+    "fun"
+  ],
+  "author": "Skweezi Leekz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkweeziBoi/discord-cancer/issues"
+  },
+  "homepage": "https://github.com/SkweeziBoi/discord-cancer#readme"
+}
