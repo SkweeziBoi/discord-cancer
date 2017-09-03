@@ -76,4 +76,4 @@ function clean(text) {
 }
 
 
-cancer.login("MzUzOTYyNjU3NzM4MzkxNTYy.DI30Hg.To4ufnDyHLIPqCcUZTX4-YRxQWw")
+cancer.login("keep away from the eyes")
