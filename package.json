@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/SkweeziBoi/discord-cancer/issues"
   },
-  "homepage": "https://github.com/SkweeziBoi/discord-cancer#readme"
+  "homepage": "https://github.com/SkweeziBoi/discord-cancer#readme",
+  "dependencies": {
+    "cancercase": "^1.0.3",
+    "discord.js": "^11.2.1"
+  }
 }

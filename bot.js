@@ -5,6 +5,7 @@ var prefix = "kek."
 
 cancer.on("ready", () => {
 	console.log(`Cancerous shit in ${cancer.guilds.size} Server`)
+	cancer.user.setGame(`kek.help for the most cancerous server on discord | ${cancer.guilds.size} Servers`)
 });
 
 cancer.on("message", msg => {
@@ -30,6 +31,13 @@ cancer.on("message", msg => {
 		let Cancercase = new cancerturn(text)
 		msg.channel.send("Your cancer has been cancerified\nHere it is:\n```\n" + Cancercase.treeify() + "\n```")
 	}
+	if (msg.content === prefix + "invite") {
+		msg.channel.send("u read to make your server *more cancerous*? Add me u twig :3 *->* https://discordapp.com/oauth2/authorize?client_id=353962657738391562&scope=bot&permissions=154630")
+	}
+	if (msg.content.startsWith(prefix + "kek")) {
+		let keks = ["KEK", "kek", "Kek", "keK", "kEk"]
+		msg.channel.send(`${keks[Math.floor(Math.random() * keks.length)]} ${cancerargs.join(" ")}`)
+	}
 	if (msg.content.startsWith(prefix + "eval")) {
 		if (msg.author.id !== "328645619394543627") {
 			return msg.channel.send("This command is cancerous.")
@@ -48,7 +56,7 @@ cancer.on("message", msg => {
     }})
   }
   } catch (err) {
-    msg.channel.send("`ERROR` ```js\n" +
+    msg.channel.send("You cant fucking code. Learn JS\n`ERROR` ```js\n" +
       clean(err) +
       "\n```");
   }
@@ -68,4 +76,4 @@ function clean(text) {
 }
 
 
-cancer.login("no shit")
+cancer.login("MzUzOTYyNjU3NzM4MzkxNTYy.DI30Hg.To4ufnDyHLIPqCcUZTX4-YRxQWw")
