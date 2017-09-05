@@ -5,7 +5,12 @@ var prefix = "kek."
 
 cancer.on("ready", () => {
 	console.log(`Cancerous shit in ${cancer.guilds.size} Server`)
-	cancer.user.setGame(`kek.help for the most cancerous server on discord | ${cancer.guilds.size} Servers`)
+	cancer.user.setPresence({
+	  game: {
+		name: `kek.help for the most cancerous server on discord | ${cancer.guilds.size} Servers`,
+		type: 0
+	  }
+	});
 });
 
 cancer.on("message", msg => {
