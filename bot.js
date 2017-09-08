@@ -6,8 +6,13 @@ var snekfetch = require("snekfetch")
 
 cancer.on("ready", () => {
 	console.log(`Cancerous shit in ${cancer.guilds.size} Servers`)
-	cancer.user.setGame(`kek.help for the most cancerous bot on discord | ${cancer.guilds.size} Servers`)
-		   snekfetch.post(`https://discordbots.org/api/bots/${cancer.user.id}/stats`)
+	cancer.user.setPresence({
+	  game: {
+		name: `kek.help for the most cancerous server on discord | ${cancer.guilds.size} Servers`,
+		type: 0
+	  }
+	});
+snekfetch.post(`https://discordbots.org/api/bots/${cancer.user.id}/stats`)
    .set("Authorization", "no-bitch")
    .send({
     server_count: cancer.guilds.size
