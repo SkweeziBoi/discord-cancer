@@ -15,7 +15,7 @@ cancer.on("ready", () => {
 	  }
 	});
   snekfetch.post(`https://discordbots.org/api/bots/${cancer.user.id}/stats`)
-   .set("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyODY0NTYxOTM5NDU0MzYyNyIsImlhdCI6MTUwNDEyOTYxN30.0ZiBOZY1KXsAR9bY8j6Aonkp6LUk-CUSdnjHqD4ptQ4")
+   .set("Authorization", "nope")
    .send({
     server_count: cancer.guilds.size
    })
@@ -199,7 +199,7 @@ msg.channel.send(Math.floor(Math.random() * images.length))
 cancer.on("guildCreate", guild => {
 	console.log(`Joined a shit server called ${guild.name} Owned by ${guild.owner.user.username}. Now in ${cancer.guilds.size} Servers. WEW`)
 			   snekfetch.post(`https://discordbots.org/api/bots/${cancer.user.id}/stats`)
-   .set("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyODY0NTYxOTM5NDU0MzYyNyIsImlhdCI6MTUwNDEyOTYxN30.0ZiBOZY1KXsAR9bY8j6Aonkp6LUk-CUSdnjHqD4ptQ4")
+   .set("Authorization", "heckoff")
    .send({
     server_count: cancer.guilds.size
    })
@@ -209,7 +209,7 @@ cancer.on("guildCreate", guild => {
 cancer.on("guildDelete", guild => {
 	console.log(`Left the worst server called ${guild.name} Owned by ${guild.owner.user.username}. Now in ${cancer.guilds.size} Servers. WEW`)
 			   snekfetch.post(`https://discordbots.org/api/bots/${cancer.user.id}/stats`)
-   .set("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMyODY0NTYxOTM5NDU0MzYyNyIsImlhdCI6MTUwNDEyOTYxN30.0ZiBOZY1KXsAR9bY8j6Aonkp6LUk-CUSdnjHqD4ptQ4")
+   .set("Authorization", "abuse")
    .send({
     server_count: cancer.guilds.size
    })
