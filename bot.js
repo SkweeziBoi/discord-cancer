@@ -19,7 +19,7 @@ cancer.on("ready", () => {
    .send({
     server_count: cancer.guilds.size
    })
-   .then(console.log("Shit stats have been posted")) // add a thing when its done!
+   .then(() => console.log("Shit stats have been posted")) // add a thing when its done!
 });
 
 cancer.on("message", msg => {
@@ -203,7 +203,7 @@ cancer.on("guildCreate", guild => {
    .send({
     server_count: cancer.guilds.size
    })
-   .then(console.log("Shit stats have been posted")) // add a thing when its done!
+   .then(() => console.log("Shit stats have been posted")) // add a thing when its done!
 });
 
 cancer.on("guildDelete", guild => {
@@ -213,7 +213,7 @@ cancer.on("guildDelete", guild => {
    .send({
     server_count: cancer.guilds.size
    })
-   .then(console.log("Shit stats have been posted")) // add a thing when its done!
+   .then(() => console.log("Shit stats have been posted")) // add a thing when its done!
 
 });
 
